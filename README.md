@@ -21,10 +21,10 @@ We need to curl the localhost to nginx
 # STEP 2 — INSTALLING MYSQL
 1. We use apt to install the software 
 `sudo apt install mysql-server`
-It shows the software is already installed and running
+
 2. Ran the following command to login to mysql console 
-`sudo mysql` but was getting error message "Access denied for user 'root'@'localhost' (using password: NO)"
-3. Tried this command `mysql -u root -p` it prompted for password. I was able to login after entering my password
+`sudo mysql` 
+3. Tried this command `sudo mysql_secure_installation` it prompted to validate the password
 Screenshot is saved in images folder 
 4. Exit the MySQL shell with:
 `exit`
