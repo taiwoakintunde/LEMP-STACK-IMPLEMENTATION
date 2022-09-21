@@ -1,4 +1,4 @@
-# ProjectTwo
+
 **WEB STACK IMPLEMENTATION (LEMP STACK)**
 # STEP 1 – INSTALLING THE NGINX WEB SERVER
 1. Using the app for the first time requires updating server's package index by running the following command
